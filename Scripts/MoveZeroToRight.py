@@ -1,4 +1,4 @@
-ipz = [1, 0, 0, 7, 8, 0, 0, 0, 9, 1] # input array.
+ipz = [1, 0, 0, 7, 8, 0, 0, 0, 9, 1] # Input array.
 
 output = [] # another empty array.
 for number in ipz: # gets numbers through the array.

@@ -10,4 +10,4 @@ elif weight_find.upper() == "K":
     pounds = float(weight) * 2.20462262
     print("Your weight in pounds is: " + str(pounds))
 else:
-    print("Invalid input")
+    print("Invalid Input")

@@ -3,7 +3,7 @@ stuff = ["one", "two", "three", "four", "five"] # list for which items can be ad
 command = "" # empty string for command.
 
 while command != "quit": # a while loop that runs until the user types quit.
-    command = input("> ").lower() # updates the command variable with the user input.
+    command = input("> ").lower() # updates the command variable with the user Input.
     if command == "list": # if this command is called the list is displayed.
         for item in stuff:
             print(item)

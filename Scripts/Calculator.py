@@ -1,8 +1,8 @@
 # basic calculator
 
-first_user_input = input("Enter the first number: ") # gets first input/ calclation input.
+first_user_input = input("Enter the first number: ") # gets first Input/ calclation Input.
 
-second_user_input = input("Enter the second number: ") # gets second input/ calclation input.
+second_user_input = input("Enter the second number: ") # gets second Input/ calclation Input.
 
 operation = input("Enter the operation ex: +, -, *, /, //, %, **: ") # gets the funky operation thingy required.
 

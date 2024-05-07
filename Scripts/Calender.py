@@ -22,5 +22,5 @@ while user_input != "stop":
         print(just_a_normal_day)
 
     else:
-        print("Invalid input please try using the words 'add', 'check', 'remove', or 'stop'")
+        print("Invalid Input please try using the words 'add', 'check', 'remove', or 'stop'")
 
