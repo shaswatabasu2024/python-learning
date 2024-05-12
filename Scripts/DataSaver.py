@@ -11,7 +11,7 @@ while are_you_sure == "yes":
     last_name = input("Enter student's last name: ")
     age = input("Enter student's age: ")
     list_of_students.append(StudentClass.Student(name, last_name, age))
-    save = input("Would you like to are_you_sure your student info (yes/no): ")
+    save = input("Would you like to save your student info or write more? (yes/no): ")
     if save == "yes":
         for student in list_of_students:
             print(student.name, student.last_name, student.age)
