@@ -1,3 +1,7 @@
+user_assignment = input("Enter assignment number: ")
+
 with open("data.txt", "r") as file:
-    # Your code here
-    print(file.read())
+    students = file.readlines()
+    for student in students:
+        if student.find(user_assignment) != -1:
+            print(student)

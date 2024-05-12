@@ -10,7 +10,8 @@ while are_you_sure == "yes":
     name = input("Enter student's name: ")
     last_name = input("Enter student's last name: ")
     age = input("Enter student's age: ")
-    list_of_students.append(StudentClass.Student(name, last_name, age))
+    assignment = input("Enter student's assignment number: ")
+    list_of_students.append(StudentClass.Student(name, last_name, age, assignment))
     save = input("Would you like to save your student info or write more? (yes/no): ")
     if save == "yes":
         for student in list_of_students:
@@ -22,6 +23,6 @@ while are_you_sure == "yes":
         with open(file_path, 'w') as file:
             # Write content to the file
             for student in list_of_students:
-                file.write(student.name + " " + student.last_name + " " + student.age + "\n")
+                file.write("FirstName: " + student.name + " LastName: " + student.last_name + " Age: " + student.age + " ID:" + student.assignment + "\n")
 
         print(f"File '{file_path}' created successfully.")
